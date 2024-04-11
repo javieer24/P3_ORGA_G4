@@ -1,0 +1,30 @@
+#include <Stepper.h>
+
+// Define el número de pasos por revolución
+#define STEPS_PER_REV 200
+
+// Crea una instancia de la clase Stepper
+Stepper myStepper(STEPS_PER_REV, 0, 1, 2, 3);
+
+void setup() {
+  // Establece la velocidad del motor
+  myStepper.setSpeed(80);
+}
+
+void loop() {
+  // Gira 80 grados a la izquierda
+  myStepper.step(-STEPS_PER_REV * 90 / 360);
+  delay(8000);  // Espera 8 segundos
+
+  // Regresa a la posición original
+  myStepper.step(STEPS_PER_REV * 90 / 360);
+  delay(8000);  // Espera 8 segundos
+
+  // Gira 80 grados a la derecha
+  myStepper.step(STEPS_PER_REV * 90 / 360);
+  delay(8000);  // Espera 8 segundos
+
+  // Regresa a la posición original
+  myStepper.step(-STEPS_PER_REV * 90 / 360);
+  delay(8000);  // Espera 8 segundos antes de repetir el ciclo
+}

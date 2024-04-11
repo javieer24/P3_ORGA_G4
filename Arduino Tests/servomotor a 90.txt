@@ -1,0 +1,16 @@
+#include <Servo.h>
+
+Servo miServo;  // Crea un objeto servo para controlar el servomotor
+
+int pinServo = 13;  // El servomotor está conectado al pin digital 13
+
+void setup() {
+  miServo.attach(pinServo);  // Asigna el servomotor al pin digital 13
+}
+
+void loop() {
+  miServo.write(90);  // Gira el servomotor a 90 grados
+  delay(10000);  // Espera 10 segundos (10000 milisegundos)
+  miServo.write(0);  // Regresa el servomotor a su posición original
+  delay(1000);  // Espera 1 segundo antes de repetir el ciclo
+}

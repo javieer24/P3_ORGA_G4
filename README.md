@@ -81,7 +81,7 @@ sensor color diagrama
 ## 📖 Documentación
 Para comprender de mejor manera el funcionamiento del sistema puede dirigirse a lo siguiente:
     <ul>
-       <li><a href="https://github.com/javieer24/P2_ORGA_G4/blob/main/Documentaci%C3%B3n/P2_ORGA.pdf">:point_right:Planteamiento de proyecto</a></li>
-        <li><a href="https://github.com/javieer24/P2_ORGA_G4/blob/main/Documentaci%C3%B3n/P2_ORGA_G4.pdf" target="_blank">:point_right:Documentacion Ensayo</a></li>
+       <li><a href="https://github.com/javieer24/P3_ORGA_G4/blob/main/Documentaci%C3%B3n/P3_ORGA.pdf">:point_right:Planteamiento de proyecto</a></li>
+        <li><a href="https://github.com/javieer24/P3_ORGA_G4/blob/main/Documentaci%C3%B3n/P3_Grupo4.pdf" target="_blank">:point_right:Documentacion Ensayo</a></li>
     </ul>
 
